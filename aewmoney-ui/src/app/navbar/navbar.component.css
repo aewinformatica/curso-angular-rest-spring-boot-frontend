@@ -1,0 +1,8 @@
+.navbar {
+  padding: 10px 0; /*espaçamento interno do elemento 10px em cima e em baixo 0 na esquerda e direita*/
+  background-color: #1e94d2; /*cor do fundo*/
+}
+
+.navbar-toggle {/* classe para mudar a cor do link para branco*/
+  color: #fff;
+}
