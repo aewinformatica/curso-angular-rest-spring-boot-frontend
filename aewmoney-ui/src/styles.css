@@ -4,6 +4,16 @@ body {
   color: #404C51;
 }
 
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover, a:focus  {
+
+  text-decoration: underline;
+}
+
 label {
   font-weight: bold;
 }
