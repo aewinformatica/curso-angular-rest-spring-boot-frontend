@@ -15,6 +15,14 @@
     {
       "nome": "Brasilia",
       "id": 4
+    },
+    {
+      "nome": "Goiânia",
+      "id": 5
+    },
+    {
+      "nome": "São Paulo",
+      "id": 6
     }
   ]
 }
