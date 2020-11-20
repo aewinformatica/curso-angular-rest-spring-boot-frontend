@@ -1,28 +1,29 @@
 {
   "cidades": [
-    {
-      "nome": "Uberlândia",
-      "id": 1
-    },
-    {
-      "nome": "São Paulo",
-      "id": 2
-    },
-    {
-      "nome": "Fortaleza",
-      "id": 3
-    },
-    {
-      "nome": "Brasilia",
-      "id": 4
-    },
-    {
-      "nome": "Goiânia",
-      "id": 5
-    },
-    {
-      "nome": "São Paulo",
-      "id": 6
-    }
+
+      {
+        "nome": "Uberlândia",
+        "id": 1
+      },
+      {
+        "nome": "São Paulo",
+        "id": 2
+      },
+      {
+        "nome": "Fortaleza",
+        "id": 3
+      },
+      {
+        "nome": "Brasilia",
+        "id": 4
+      },
+      {
+        "nome": "Goiânia",
+        "id": 5
+      },
+      {
+        "nome": "São Paulo",
+        "id": 6
+      }
   ]
 }

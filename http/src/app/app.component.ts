@@ -33,7 +33,10 @@ export class AppComponent implements OnInit {
   }
 
   excluir(id: number) {
-    alert(id);
+    this.cidadeService.excluir(id)
+    .then(() => { alert('cidade Excluida com Sucesso'); } );
+
+    this.consultar();
   }
 
   atualizar(cidade: any) {
