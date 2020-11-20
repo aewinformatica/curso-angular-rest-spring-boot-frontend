@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { CidadeService } from './cidade.service';
+import { HttpModule } from '@angular/http';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,9 +15,11 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    // tslint:disable-next-line: deprecation
+    HttpModule
   ],
-  providers: [],
+  providers: [CidadeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
