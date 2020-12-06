@@ -1,16 +1,29 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, Output, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-pessoas-grid',
   templateUrl: './pessoas-grid.component.html',
   styleUrls: ['./pessoas-grid.component.css']
 })
-export class PessoasGridComponent implements OnInit {
+export class PessoasGridComponent {
 
   @Input() pessoas = [];
-  constructor() { }
+  @Input() itensPorPagina = 0;
+  @Input() totalRegistros = 0;
 
-  ngOnInit() {
+  @Output() trocarPagina = new EventEmitter();
+  @Output() removerPessoa = new EventEmitter();
+
+  @ViewChild('tabela', {static: true}) grid;
+
+  paginar(event) {
+    this.trocarPagina.emit(event);
   }
+
+  remover(event) {
+    this.removerPessoa.emit(event);
+    this.grid.first = 0;
+  }
+
 
 }

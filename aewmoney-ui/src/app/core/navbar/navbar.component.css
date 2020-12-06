@@ -41,3 +41,10 @@
 .navbar-menuitem a:hover {/*comportamento do link filho do menuitem ao passar o mouse*/
 color: #fff;
 }
+
+.navbar-menuitem.ativo { /* Aplica css quando a rota estiver ativa
+                         que é detectado pela diretiva routerLinkActive="ativo"*/
+  background-color: #494541;
+}
+
+

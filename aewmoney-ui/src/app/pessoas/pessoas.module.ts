@@ -17,6 +17,7 @@ import { TooltipModule } from 'primeng/components/tooltip/tooltip';
 import { PessoaCadastroComponent } from './pessoa-cadastro/pessoa-cadastro.component';
 import { PessoasPesquisaComponent } from './pessoas-pesquisa/pessoas-pesquisa.component';
 import { PessoasGridComponent } from './pessoas-grid/pessoas-grid.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
@@ -32,6 +33,7 @@ import { PessoasGridComponent } from './pessoas-grid/pessoas-grid.component';
     SelectButtonModule,
     DataTableModule,
     TooltipModule,
+    RouterModule
   ],
   declarations: [PessoaCadastroComponent,
     PessoasPesquisaComponent,
